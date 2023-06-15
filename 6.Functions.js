@@ -16,6 +16,10 @@ const area = width * height;
 console.log(area);
 }
 calculateArea(25,5)
+//Export Module or File
+module.exports ={
+    cal:calculateArea
+}
 
 
 //2.*******************Variable Scope**********************************
