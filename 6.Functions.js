@@ -57,6 +57,25 @@ func(30,55)
 //     callback()
 //  }
 //  function godby(){
-//     console.log('good BYe!')
+//     console.log('i m good !')
 //  }
-//  pri('Hello',godby)
+//  pri('Hello')
+
+
+//*****************************************Higher Order Function******************************* */
+//1.Map-Used when we need 2 make new array
+let arr=[10,20,30]
+let a=arr.map((val,index,array)=>{
+    console.log(val,index,array)
+    return val +index
+})
+console.log(a)
+
+//2.Foreach-Used when we need 2 perfrom operation on existing element--works same as map but dont return anything
+
+//3.Filter -Used to filter something
+let b=arr.filter((f)=>{
+    console.log(f>15)
+})
+
+//Reduce method take two input as the parameter
