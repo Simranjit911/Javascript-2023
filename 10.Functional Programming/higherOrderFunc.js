@@ -17,20 +17,19 @@
 
 //2.-------------------------------------2.For each------------------------------------------
 //donot return anything but map return returns---this is the only difference
-
-// let indollar=trnsaction.forEach((n)=>{
-//     console.log((n/dollar).toFixed(3))
-// })
-// console.log(indollar)
+ let trnsaction=[1000,2000,-300,5000,15000,1000000]
+let indollar=trnsaction.forEach((n)=>{
+    console.log((n/84).toFixed(3))    
+})
+console.log(indollar)
 
 //3.-----------------------------------------3.Find-----------------------------------------------
 //Used to find something in the array with condition
 // let trnsaction=[1000,2000,-300,5000,15000,1000000]
-// let ans=trnsaction.find((n)=>{
-//     console.log(n<0)
-//     console.log('return\n')
+// let ans=trnsaction.find((n)=>{    
 //     return n<0
 // })
+
 // console.log(ans)
 
 

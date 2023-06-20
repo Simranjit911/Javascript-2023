@@ -10,12 +10,25 @@
 
 //CallBackFunction
 
-function fname(name,cb){
-    console.log(name)
-    cb('Kold')
+// function fname(name,cb){
+//     console.log(name)
+//     cb('Kold')
+// }
+// function lname(lname){
+//     console.log(lname)
+// }
+// fname('Sam',lname)//Lname is an another function which passed in this
+// // lname('Kold')
+
+
+//Another Example
+
+const add= (a,b,opr)=>{
+    return opr(a,b)
 }
-function lname(lname){
-    console.log(lname)
+const opr = (m,n) =>{
+    return m+n
 }
-fname('Sam',lname)//Lname is an another function which passed in this
-// lname('Kold')
+const sub=(a,b)=>a-b
+console.log(add(10,20,opr))
+console.log(add(10,20,sub))
